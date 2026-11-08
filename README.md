@@ -37,7 +37,8 @@ Görseller önceki sürümün telefon ölçüsündeki web önizlemesinden alınm
 - iPhone/iPad: desteklenen iOS 26+ cihazlarda UIKit tabanlı yerel Liquid Glass düğmeleri, sistem alt menüsü ve dokuz tema.
 - Android: cam efekti olmadan standart siyah/kırmızı tema ve düz alt menü.
 - Görseller için disk/bellek önbelleği; gömülü 64 baş fotoğrafı, 65 orantılı tam boy görsel ve dört etkinlik afişi.
-- Kayıtlı haberler, okundu filtresi, kişisel notlar ve yerel önbellek.
+- Kapaklı haber kartları, sabit arama ve okundu filtreleri, kayıtlı haberler ve kişisel notlar.
+- Fight Digitale ve MMA 101 Türkiye’nin herkese açık X gönderileri, gerçek görseller ve kaynak yayımladığında video oynatma.
 
 ## Kurulum
 
@@ -65,10 +66,10 @@ IPA imzasız cihaz paketidir; App Store veya TestFlight dağıtımı değildir. 
 
 ## Veri ve mevcut sınırlar
 
-Sıralamalar [UFC’nin resmî sıralama sayfasından](https://www.ufc.com/rankings), etkinlik afişleri ve yayımlanan kart saatleri resmî UFC etkinlik sayfalarından; diğer fikstür ve maç istatistikleri ESPN’den, haberler ücretsiz RSS kaynaklarından gelir. META ve medya listeleri ayrı tutulur; P4P medya paneli olarak etiketlenir. Sıralama ekranında son kontrol zamanı gösterilir. Kaynak gecikmesi, eksik alanlar ve kart değişiklikleri olabilir. Kaynak KO ve TKO’yu ayırmıyorsa uygulama **KO/TKO** gösterir. Bulunmayan ölçüler veya istatistikler tahmin edilmez.
+Sıralamalar [UFC’nin resmî sıralama sayfasından](https://www.ufc.com/rankings), etkinlik afişleri ve yayımlanan kart saatleri resmî UFC etkinlik sayfalarından; diğer fikstür ve maç istatistikleri ESPN’den, haberler herkese açık X profilleri, ESPN ve RSS kaynaklarından gelir. META ve medya listeleri ayrı tutulur; P4P medya paneli olarak etiketlenir. Sıralama ekranında son kontrol zamanı gösterilir. Kaynak gecikmesi, eksik alanlar ve kart değişiklikleri olabilir. Kaynak KO ve TKO’yu ayırmıyorsa uygulama **KO/TKO** gösterir. Bulunmayan ölçüler veya istatistikler tahmin edilmez.
 
 - Raund bazlı ayrıntılı istatistikler ve resmî hakem puan kartları bu sürümde yoktur; maç toplamları gösterilir.
-- Fight Digitale, MMA101Türkiye ve ChampRDS için X bağlantıları vardır. Bu hesapların otomatik X gönderi akışı bağlı değildir; X token’ı gerekmez.
+- Fight Digitale ve MMA 101 Türkiye gönderileri herkese açık X profil sayfalarından alınır. Bu sayfaların yapısı veya erişimi değişirse uygulama son alınan gönderileri gösterir. Kaynak satırı X profiline, gönderi düğmesi ilgili paylaşıma gider.
 - Canlı başlangıç uyarısı, uygulama ekranda açıkken ESPN’de seçili eşleşmenin durumunu 20 saniyede bir kontrol eder. Kaynak gecikmesi uyarıyı geciktirebilir. Kilit ekranında canlı uyarı için sunucu push kurulumu gerekir.
 - Topluluk, hesap eşitlemesi ve sunucu push hizmetleri bu dağıtımda etkin değildir.
 - Sessiz mod/Odak ayarları normal bildirim sesini engelleyebilir.

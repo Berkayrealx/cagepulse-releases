@@ -37,7 +37,8 @@ These images show an earlier version’s web preview at phone dimensions; they d
 - iPhone/iPad: native UIKit Liquid Glass buttons and system tab navigation on supported iOS 26+ devices, plus nine themes.
 - Android: standard black/red styling and a flat bottom navigation bar, without glass effects.
 - Disk/memory image caching, 64 bundled headshots, 65 proportional full-body portraits and four event artworks.
-- Saved news, read filters, personal notes and a local cache.
+- Image-led news cards, fixed search and read filters, saved stories, and personal notes.
+- Public posts from Fight Digitale and MMA 101 Türkiye on X, with source images and in-app video when available.
 
 ## Installation
 
@@ -61,10 +62,10 @@ The IPA is an unsigned device build, not an App Store or TestFlight release. Sim
 
 ## Data and current limits
 
-Rankings come from the [official UFC rankings page](https://www.ufc.com/rankings); promotional event artwork and published card times come from official UFC event pages; other schedules and statistics come from ESPN, and news comes from free RSS sources. META and media lists are kept separate; P4P is labeled as the media panel. The ranking screen displays the last-check timestamp. Provider delays, missing fields and card changes are possible. When the source combines KO and TKO, the app displays **KO/TKO**. Missing measurements or statistics are not invented.
+Rankings come from the [official UFC rankings page](https://www.ufc.com/rankings); promotional event artwork and published card times come from official UFC event pages; other schedules and statistics come from ESPN, and news comes from public X profiles, ESPN and RSS sources. META and media lists are kept separate; P4P is labeled as the media panel. The ranking screen displays the last-check timestamp. Provider delays, missing fields and card changes are possible. When the source combines KO and TKO, the app displays **KO/TKO**. Missing measurements or statistics are not invented.
 
 - This version shows full-fight totals; detailed per-round statistics and official scorecards are not included.
-- Links to Fight Digitale, MMA101Türkiye and ChampRDS are available. An automatic X post feed is not connected, and no X token is required.
+- Fight Digitale and MMA 101 Türkiye posts are read from their public X profiles. If access or page structure changes, the last successful posts remain available. The source row opens the X profile, and the post button opens the original post.
 - Live start alerts check the selected matchup’s ESPN status every 20 seconds while the app is open on screen. Provider delays may delay the alert. Live alerts on the lock screen require server push setup.
 - Community services, account synchronization and server push are not enabled in this distribution.
 - Silent mode and Focus settings may suppress ordinary notification sounds.
