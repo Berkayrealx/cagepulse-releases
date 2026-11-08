@@ -1,21 +1,19 @@
 ## Türkçe
 
-- Etkinlik sayfasında başlığın arkasına uzanan gerçek afiş, doğal oranlarda daha küçük tam boy dövüşçüler ve ayrı erken ön kart / ön kart / ana kart saatleri.
-- Resmî UFC saatleri ve saat dilimi düzeltmesi; açıklanmayan saatler üretilmez. Hatırlatma ve ekrandaki saat aynı veriyi kullanır.
-- Karttaki dövüşçünün adına/fotoğrafına dokununca profil açılır; maç satırının diğer alanı maç ayrıntılarını açar.
-- Geri dönüşte liste konumu ve seçili sekme korunur. Kayarak geçişler, iOS kenardan geri kaydırma ve hareketli sekme çizgisi.
-- 65 orantılı tam boy görsel ve dört afiş uygulamaya gömüldü; tekrar açılan profil istekleri önbellekten karşılanır.
-- iPhone/iPad’da yerel Apple glass kontrolleri korunur; Android siyah/kırmızı kalır.
+- Dövüşçü profilinden sonraki maçına veya etkinlikteki tek bir eşleşmeye başlangıç uyarısı kur.
+- CagePulse ekranda açıkken seçili eşleşmenin ESPN durumunu 20 saniyede bir kontrol eder. Seçilen maç canlıya geçince uyarı verir.
+- Alarmlar ekranında canlı uyarıların durumunu gör ve istersen kaldır.
+- iPhone’daki alarm menüsünde dakika ve kart seçenekleri tek satıra sığacak şekilde düzenlendi.
+
+Kilit ekranında canlı uyarılar için sunucu ve push kurulumu gerekir. Saat bazlı hatırlatmalar kullanılabilir.
 
 ## English
 
-- Event artwork behind the header, smaller proportional full-body fighters, and separate early-prelim, prelim and main-card times.
-- Official UFC timestamps fix the timezone offset. Unpublished times remain unknown; reminders use the same clock data.
-- Tap a fighter name/photo to open the profile, or the surrounding bout row for fight details.
-- Back navigation preserves scroll and selected sections, with sliding transitions, an iOS edge-back gesture and animated tab indicators.
-- Bundled 65 proportional body portraits and four event artworks; repeated profile requests use a cache.
-- Native Apple glass controls remain on supported iOS devices; Android retains black/red controls.
+- Set a start alert for a fighter’s next bout or a single matchup on an event card.
+- While CagePulse is open on screen, it checks the selected matchup’s ESPN status every 20 seconds and alerts when that fight goes live.
+- View and remove live alerts in the reminders tab.
+- Adjusted the reminder chips on iPhone to keep their labels on one line.
 
-Detailed per-round statistics and live per-fight push alerts remain unconnected. / Ayrıntılı raund istatistikleri ve canlı tek-maç push bildirimleri bağlı değildir.
+Live alerts on the lock screen require server push setup. Time-based reminders are available.
 
-Android: ARM64, Android 8.0+. iPhone/iPad: unsigned IPA, iOS 15.1+; sign using your own account.
+Android ARM64, Android 8.0+. iPhone/iPad unsigned IPA, iOS 15.1+.

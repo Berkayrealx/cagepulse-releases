@@ -32,6 +32,7 @@ These images show an earlier version’s web preview at phone dimensions; they d
 - Full available career history across promotions for every fighter, with winners, finish methods, rounds and times.
 - Full-fight strike, takedown, control-time, target and position statistics.
 - Time-based main-card, preliminary-card and custom-time reminders.
+- Live start alerts for a fighter’s next bout or a single matchup. CagePulse must be open on screen.
 - Turkish by default; English and Brazilian Portuguese interface options.
 - iPhone/iPad: native UIKit Liquid Glass buttons and system tab navigation on supported iOS 26+ devices, plus nine themes.
 - Android: standard black/red styling and a flat bottom navigation bar, without glass effects.
@@ -56,7 +57,7 @@ The IPA is an unsigned device build, not an App Store or TestFlight release. Sim
 2. Tap a fighter name or image to open their profile; tap the surrounding row for fight details. Past fights display winners, finish methods, rounds and times directly.
 3. Find a fighter by name or division. The **Fights** tab automatically loads the full available history. Results are always visible here, and loaded fights are cached on the device.
 4. Select your language in **Settings**. iPhone users can open the separate **Themes** gallery.
-5. Open a future event’s reminder controls to schedule a notification. Notification permission is required.
+5. Open a fighter profile and select **Next fight → Notify when the fight starts**. You can also select **Single fight** in an event’s reminder controls. Notification permission is required.
 
 ## Data and current limits
 
@@ -64,7 +65,7 @@ Rankings come from the [official UFC rankings page](https://www.ufc.com/rankings
 
 - This version shows full-fight totals; detailed per-round statistics and official scorecards are not included.
 - Links to Fight Digitale, MMA101Türkiye and ChampRDS are available. An automatic X post feed is not connected, and no X token is required.
-- Notifications triggered by the previous fight ending are not implemented yet. Current reminders are time-based.
+- Live start alerts check the selected matchup’s ESPN status every 20 seconds while the app is open on screen. Provider delays may delay the alert. Live alerts on the lock screen require server push setup.
 - Community services, account synchronization and server push are not enabled in this distribution.
 - Silent mode and Focus settings may suppress ordinary notification sounds.
 

@@ -31,7 +31,8 @@ Görseller önceki sürümün telefon ölçüsündeki web önizlemesinden alınm
 - Dövüşçü takibi, fiziksel karşılaştırma, kazanma yolları ve kariyer istatistikleri.
 - Tüm dövüşçüler için, kaynaktaki tüm organizasyonlardan maç geçmişi; kazanan, KO/TKO/submission/karar, raund ve süre bilgisi.
 - Maç bazında toplam/önemli vuruş, yere alma, kontrol süresi, vuruş hedefleri ve pozisyon dağılımları.
-- Saat bazlı ana kart/ön kart/özel saat hatırlatmaları.
+- Saat bazlı ana kart, ön kart ve özel saat hatırlatmaları.
+- Dövüşçünün sonraki maçına veya etkinlikte seçilen tek maça canlı başlangıç uyarısı. CagePulse ekranda açıkken çalışır.
 - Türkçe varsayılan arayüz; İngilizce ve Brezilya Portekizcesi seçenekleri.
 - iPhone/iPad: desteklenen iOS 26+ cihazlarda UIKit tabanlı yerel Liquid Glass düğmeleri, sistem alt menüsü ve dokuz tema.
 - Android: cam efekti olmadan standart siyah/kırmızı tema ve düz alt menü.
@@ -60,7 +61,7 @@ IPA imzasız cihaz paketidir; App Store veya TestFlight dağıtımı değildir. 
 2. Dövüşçünün adına veya fotoğrafına dokunarak profilini, satırın kalan alanına dokunarak maç ayrıntılarını aç. Geçmiş karşılaşmalarda kazanan, bitiş yöntemi, raund ve süre doğrudan gösterilir.
 3. **Dövüşçüler** bölümünde isim/siklet filtresiyle profil bul. **Maçlar** sekmesi kaynaktaki tüm geçmişi otomatik yükler. Bu ekranda sonuçlar her zaman açıktır; yüklenen maçlar cihazda saklanır.
 4. **Ayarlar** bölümünden dili, iPhone’da **Temalar** sayfasından görünümü değiştir.
-5. Hatırlatma için bir gelecek etkinliğin alarm düğmesini kullan. Sistem bildirim izni gerekir.
+5. Dövüşçü profilinde **Sonraki maç → Maç başlayınca bildir** seçeneğine dokun. Etkinliğin alarm menüsünden **Tek maç** seçerek de aynı uyarıyı kurabilirsin. Bildirim izni gerekir.
 
 ## Veri ve mevcut sınırlar
 
@@ -68,7 +69,7 @@ Sıralamalar [UFC’nin resmî sıralama sayfasından](https://www.ufc.com/ranki
 
 - Raund bazlı ayrıntılı istatistikler ve resmî hakem puan kartları bu sürümde yoktur; maç toplamları gösterilir.
 - Fight Digitale, MMA101Türkiye ve ChampRDS için X bağlantıları vardır. Bu hesapların otomatik X gönderi akışı bağlı değildir; X token’ı gerekmez.
-- Önceki maç bittiğinde tek bir dövüş için kilitli ekrana uyarı gönderme özelliği henüz yoktur. Mevcut hatırlatmalar saat bazlıdır.
+- Canlı başlangıç uyarısı, uygulama ekranda açıkken ESPN’de seçili eşleşmenin durumunu 20 saniyede bir kontrol eder. Kaynak gecikmesi uyarıyı geciktirebilir. Kilit ekranında canlı uyarı için sunucu push kurulumu gerekir.
 - Topluluk, hesap eşitlemesi ve sunucu push hizmetleri bu dağıtımda etkin değildir.
 - Sessiz mod/Odak ayarları normal bildirim sesini engelleyebilir.
 
