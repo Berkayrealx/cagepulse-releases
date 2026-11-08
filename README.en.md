@@ -31,8 +31,9 @@ These images show the actual app’s web preview at phone dimensions. Native iPh
 - Full-fight strike, takedown, control-time, target and position statistics.
 - Time-based main-card, preliminary-card and custom-time reminders.
 - Turkish by default; English and Brazilian Portuguese interface options.
-- iPhone/iPad: interactive native Liquid Glass on supported iOS 26+ devices, plus nine themes.
+- iPhone/iPad: native UIKit Liquid Glass buttons and system tab navigation on supported iOS 26+ devices, plus nine themes.
 - Android: standard black/red styling and a flat bottom navigation bar, without glass effects.
+- Disk/memory image caching and 64 bundled first-screen previews.
 - Saved news, read filters, personal notes and a local cache.
 
 ## Installation
@@ -50,7 +51,7 @@ The IPA is an unsigned device build, not an App Store or TestFlight release. Sim
 ## Getting started
 
 1. Open an upcoming or past card in **Events**.
-2. Tap a fight for details. Use **Show results** when spoiler protection is enabled; change the default in Settings.
+2. Tap a fight for details. Past fights display winners, finish methods, rounds and times directly.
 3. Find a fighter by name or division. The **Fights** tab automatically loads the full available history. Results are always visible here, and loaded fights are cached on the device.
 4. Select your language in **Settings**. iPhone users can open the separate **Themes** gallery.
 5. Open a future event’s reminder controls to schedule a notification. Notification permission is required.

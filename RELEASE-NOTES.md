@@ -1,25 +1,19 @@
 ## Türkçe
 
-- UFC’nin resmî sayfasından ayrı META ve medya sıralamaları, P4P, şampiyon/sıra rozetleri.
-- Açılır siklet seçimi ve kilo sınırları; kart/liste ve A–Z görünümü.
-
-- Geçmiş maçlar artık yalnızca UFC’ye yönlendirilmiyor; her maçın kendi organizasyon kaydı kullanılıyor.
-- Bütün dövüşçüler için sayfalı maç geçmişinin tamamı otomatik yükleniyor; 12/100 maç sınırlaması kaldırıldı.
-- Dövüşçünün Maçlar ekranında kazanan, bitiş yöntemi, raund ve süre doğrudan gösteriliyor. Sonuç gizleme ayarı bu ekranı etkilemiyor.
-- Eski kayıtların yanlış “başlamadı” durumu düzeltiliyor. Kaynakta olmayan süreler uydurulmuyor.
-- Önbellek ve kısmi yükleme koruması eklendi; bir maçın bağlantısı aksarsa diğerleri kaybolmuyor.
+- iOS 26+ için Apple UIKit glass/prominentGlass düğmeleri ve yerel sistem alt menüsü.
+- Görsellere disk/bellek önbelleği, uygulamaya gömülü 64 hızlı önizleme ve sınırlı ön yükleme kuyruğu.
+- Geçmiş maçlarda “Sonuçları göster” adımı kaldırıldı. Kazanan, bitiş yöntemi, raund ve süre doğrudan gösteriliyor.
+- Yatay etkinlik kartları, etkinlik üst görseli ve kazanan rozeti/ülke bayrağı içeren maç satırları.
+- GitHub tanıtımından tema ekran görüntüsü ve ilgisiz marka ifadeleri kaldırıldı.
 
 ## English
 
-- Separate official UFC META/media rankings, P4P and champion/rank badges.
-- Division selector sheet, weight limits, card/list layouts and A–Z browsing.
+- Native Apple UIKit glass/prominentGlass buttons and system tab navigation on iOS 26+.
+- Disk/memory image caching, 64 bundled previews and a bounded preload queue.
+- Past-fight results are visible immediately, without a reveal button.
+- Horizontal event cards, a revised event hero and bout rows with winner badges and flags.
+- Removed the theme screenshot and unrelated branding from the public download page.
 
-- Career history follows each fight’s actual promotion instead of forcing all records through UFC.
-- All available history pages load automatically for every fighter; the 12/100-fight limit was removed.
-- Fighter history always displays winners, finish methods, rounds and times, independently of event spoiler settings.
-- Stale Scheduled flags on played bouts are corrected. Missing source times are not invented.
-- Caching and partial-load recovery preserve available fights when a request fails.
+Detailed per-round statistics and live per-fight push alerts are not connected. / Ayrıntılı raund istatistikleri ve canlı tek-maç push bildirimleri bağlı değildir.
 
 Android: ARM64, Android 8.0+. iPhone/iPad: unsigned IPA, iOS 15.1+; sign using your own account.
-
-[Türkçe kılavuz / English guide](https://github.com/Berkayrealx/cagepulse-releases)

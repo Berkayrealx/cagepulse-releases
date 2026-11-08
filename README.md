@@ -31,8 +31,9 @@ Görseller gerçek uygulamanın telefon ölçüsündeki web önizlemesinden alı
 - Maç bazında toplam/önemli vuruş, yere alma, kontrol süresi, vuruş hedefleri ve pozisyon dağılımları.
 - Saat bazlı ana kart/ön kart/özel saat hatırlatmaları.
 - Türkçe varsayılan arayüz; İngilizce ve Brezilya Portekizcesi seçenekleri.
-- iPhone/iPad: desteklenen iOS 26+ cihazlarda etkileşimli yerel Liquid Glass ve dokuz tema.
+- iPhone/iPad: desteklenen iOS 26+ cihazlarda UIKit tabanlı yerel Liquid Glass düğmeleri, sistem alt menüsü ve dokuz tema.
 - Android: cam efekti olmadan standart siyah/kırmızı tema ve düz alt menü.
+- Görseller için disk/bellek önbelleği ve uygulamayla gelen 64 hızlı önizleme.
 - Kayıtlı haberler, okundu filtresi, kişisel notlar ve yerel önbellek.
 
 ## Kurulum
@@ -54,7 +55,7 @@ IPA imzasız cihaz paketidir; App Store veya TestFlight dağıtımı değildir. 
 ## İlk kullanım
 
 1. **Etkinlikler** bölümünden yaklaşan veya geçmiş bir kart seç.
-2. Kartın içinden bir dövüşe dokunarak ayrıntıları aç. Sonuçlar gizliyse **Sonuçları göster** düğmesini kullan; tercihini ayarlardan değiştirebilirsin.
+2. Kartın içinden bir dövüşe dokunarak ayrıntıları aç. Geçmiş karşılaşmalarda kazanan, bitiş yöntemi, raund ve süre doğrudan gösterilir.
 3. **Dövüşçüler** bölümünde isim/siklet filtresiyle profil bul. **Maçlar** sekmesi kaynaktaki tüm geçmişi otomatik yükler. Bu ekranda sonuçlar her zaman açıktır; yüklenen maçlar cihazda saklanır.
 4. **Ayarlar** bölümünden dili, iPhone’da **Temalar** sayfasından görünümü değiştir.
 5. Hatırlatma için bir gelecek etkinliğin alarm düğmesini kullan. Sistem bildirim izni gerekir.
