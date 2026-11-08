@@ -20,11 +20,13 @@ Bu depo yalnızca uygulama paketleri, görseller ve kullanım belgeleri içindir
 | :---: | :---: |
 | <img src="media/fighter-profile.jpg" width="240" alt="Dövüşçü profili ve ölçüler"> | <img src="media/fight-stats.jpg" width="240" alt="Gerçek maç istatistikleri"> |
 
-Görseller gerçek uygulamanın telefon ölçüsündeki web önizlemesinden alınmıştır. iPhone’daki yerel Liquid Glass efekti tarayıcı görsellerinde gösterilmez; Android sürümü standart siyah/kırmızı kontroller kullanır.
+Görseller önceki sürümün telefon ölçüsündeki web önizlemesinden alınmıştır; 0.2.6 etkinlik sayfasının yeni düzenini göstermez. iPhone’daki yerel Liquid Glass efekti tarayıcı görsellerinde gösterilmez; Android sürümü standart siyah/kırmızı kontroller kullanır.
 
 ## Neler var?
 
-- UFC/MMA etkinlik takvimi, ana kart ve ön kart ayrımı.
+- UFC/MMA etkinlik takvimi; afişli etkinlik sayfası, erken ön kart / ön kart / ana kart saatleri. Açıklanmayan saatler tahmin edilmez.
+- Karttaki dövüşçü fotoğrafı veya adına dokunarak profil açma; geri dönüşte liste konumunu ve kart seçimini koruma.
+- Kayarak sayfa geçişleri, iOS kenardan geri kaydırma, hareketli sekme çizgisi ve Hareketi Azalt desteği.
 - META ve medya sıralamaları, açılır siklet paneli, P4P, kart/liste görünümü ve A–Z dövüşçü araması.
 - Dövüşçü takibi, fiziksel karşılaştırma, kazanma yolları ve kariyer istatistikleri.
 - Tüm dövüşçüler için, kaynaktaki tüm organizasyonlardan maç geçmişi; kazanan, KO/TKO/submission/karar, raund ve süre bilgisi.
@@ -33,7 +35,7 @@ Görseller gerçek uygulamanın telefon ölçüsündeki web önizlemesinden alı
 - Türkçe varsayılan arayüz; İngilizce ve Brezilya Portekizcesi seçenekleri.
 - iPhone/iPad: desteklenen iOS 26+ cihazlarda UIKit tabanlı yerel Liquid Glass düğmeleri, sistem alt menüsü ve dokuz tema.
 - Android: cam efekti olmadan standart siyah/kırmızı tema ve düz alt menü.
-- Görseller için disk/bellek önbelleği ve uygulamayla gelen 64 hızlı önizleme.
+- Görseller için disk/bellek önbelleği; gömülü 64 baş fotoğrafı, 65 orantılı tam boy görsel ve dört etkinlik afişi.
 - Kayıtlı haberler, okundu filtresi, kişisel notlar ve yerel önbellek.
 
 ## Kurulum
@@ -55,14 +57,14 @@ IPA imzasız cihaz paketidir; App Store veya TestFlight dağıtımı değildir. 
 ## İlk kullanım
 
 1. **Etkinlikler** bölümünden yaklaşan veya geçmiş bir kart seç.
-2. Kartın içinden bir dövüşe dokunarak ayrıntıları aç. Geçmiş karşılaşmalarda kazanan, bitiş yöntemi, raund ve süre doğrudan gösterilir.
+2. Dövüşçünün adına veya fotoğrafına dokunarak profilini, satırın kalan alanına dokunarak maç ayrıntılarını aç. Geçmiş karşılaşmalarda kazanan, bitiş yöntemi, raund ve süre doğrudan gösterilir.
 3. **Dövüşçüler** bölümünde isim/siklet filtresiyle profil bul. **Maçlar** sekmesi kaynaktaki tüm geçmişi otomatik yükler. Bu ekranda sonuçlar her zaman açıktır; yüklenen maçlar cihazda saklanır.
 4. **Ayarlar** bölümünden dili, iPhone’da **Temalar** sayfasından görünümü değiştir.
 5. Hatırlatma için bir gelecek etkinliğin alarm düğmesini kullan. Sistem bildirim izni gerekir.
 
 ## Veri ve mevcut sınırlar
 
-Sıralamalar [UFC’nin resmî sıralama sayfasından](https://www.ufc.com/rankings), fikstür ve maç istatistikleri ESPN’den, haberler ücretsiz RSS kaynaklarından gelir. META ve medya listeleri ayrı tutulur; P4P medya paneli olarak etiketlenir. Sıralama ekranında son kontrol zamanı gösterilir. Kaynak gecikmesi, eksik alanlar ve kart değişiklikleri olabilir. Kaynak KO ve TKO’yu ayırmıyorsa uygulama **KO/TKO** gösterir. Bulunmayan ölçüler veya istatistikler tahmin edilmez.
+Sıralamalar [UFC’nin resmî sıralama sayfasından](https://www.ufc.com/rankings), etkinlik afişleri ve yayımlanan kart saatleri resmî UFC etkinlik sayfalarından; diğer fikstür ve maç istatistikleri ESPN’den, haberler ücretsiz RSS kaynaklarından gelir. META ve medya listeleri ayrı tutulur; P4P medya paneli olarak etiketlenir. Sıralama ekranında son kontrol zamanı gösterilir. Kaynak gecikmesi, eksik alanlar ve kart değişiklikleri olabilir. Kaynak KO ve TKO’yu ayırmıyorsa uygulama **KO/TKO** gösterir. Bulunmayan ölçüler veya istatistikler tahmin edilmez.
 
 - Raund bazlı ayrıntılı istatistikler ve resmî hakem puan kartları bu sürümde yoktur; maç toplamları gösterilir.
 - Fight Digitale, MMA101Türkiye ve ChampRDS için X bağlantıları vardır. Bu hesapların otomatik X gönderi akışı bağlı değildir; X token’ı gerekmez.
