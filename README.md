@@ -25,8 +25,9 @@ Görseller gerçek uygulamanın telefon ölçüsündeki web önizlemesinden alı
 ## Neler var?
 
 - UFC/MMA etkinlik takvimi, ana kart ve ön kart ayrımı.
-- Dövüşçü araması, takip, fiziksel karşılaştırma, kazanma yolları ve kariyer istatistikleri.
-- Geçmiş maçlar; kaynağın sunduğu kazanan, KO/TKO/submission/karar, raund ve süre bilgisi.
+- META ve medya sıralamaları, açılır siklet paneli, P4P, kart/liste görünümü ve A–Z dövüşçü araması.
+- Dövüşçü takibi, fiziksel karşılaştırma, kazanma yolları ve kariyer istatistikleri.
+- Tüm dövüşçüler için, kaynaktaki tüm organizasyonlardan maç geçmişi; kazanan, KO/TKO/submission/karar, raund ve süre bilgisi.
 - Maç bazında toplam/önemli vuruş, yere alma, kontrol süresi, vuruş hedefleri ve pozisyon dağılımları.
 - Saat bazlı ana kart/ön kart/özel saat hatırlatmaları.
 - Türkçe varsayılan arayüz; İngilizce ve Brezilya Portekizcesi seçenekleri.
@@ -54,13 +55,13 @@ IPA imzasız cihaz paketidir; App Store veya TestFlight dağıtımı değildir. 
 
 1. **Etkinlikler** bölümünden yaklaşan veya geçmiş bir kart seç.
 2. Kartın içinden bir dövüşe dokunarak ayrıntıları aç. Sonuçlar gizliyse **Sonuçları göster** düğmesini kullan; tercihini ayarlardan değiştirebilirsin.
-3. **Dövüşçüler** bölümünde isim/siklet filtresiyle profil bul. **Maçlar** sekmesinde geçmiş karşılaşmalar ve **Daha eski maçlar** seçeneği bulunur.
+3. **Dövüşçüler** bölümünde isim/siklet filtresiyle profil bul. **Maçlar** sekmesi kaynaktaki tüm geçmişi otomatik yükler. Bu ekranda sonuçlar her zaman açıktır; yüklenen maçlar cihazda saklanır.
 4. **Ayarlar** bölümünden dili, iPhone’da **Temalar** sayfasından görünümü değiştir.
 5. Hatırlatma için bir gelecek etkinliğin alarm düğmesini kullan. Sistem bildirim izni gerekir.
 
 ## Veri ve mevcut sınırlar
 
-Fikstür ve istatistikler ESPN’den, haberler ücretsiz RSS kaynaklarından gelir. Kaynak gecikmesi, eksik alanlar ve kart değişiklikleri olabilir. Kaynak KO ve TKO’yu ayırmıyorsa uygulama **KO/TKO** gösterir. Bulunmayan ölçüler veya istatistikler tahmin edilmez.
+Sıralamalar [UFC’nin resmî sıralama sayfasından](https://www.ufc.com/rankings), fikstür ve maç istatistikleri ESPN’den, haberler ücretsiz RSS kaynaklarından gelir. META ve medya listeleri ayrı tutulur; P4P medya paneli olarak etiketlenir. Sıralama ekranında son kontrol zamanı gösterilir. Kaynak gecikmesi, eksik alanlar ve kart değişiklikleri olabilir. Kaynak KO ve TKO’yu ayırmıyorsa uygulama **KO/TKO** gösterir. Bulunmayan ölçüler veya istatistikler tahmin edilmez.
 
 - Raund bazlı ayrıntılı istatistikler ve resmî hakem puan kartları bu sürümde yoktur; maç toplamları gösterilir.
 - Fight Digitale, MMA101Türkiye ve ChampRDS için X bağlantıları vardır. Bu hesapların otomatik X gönderi akışı bağlı değildir; X token’ı gerekmez.

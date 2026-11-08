@@ -25,8 +25,9 @@ These images show the actual app’s web preview at phone dimensions. Native iPh
 ## Features
 
 - UFC/MMA event schedule with main-card and preliminary sections.
-- Fighter search, following, physical comparisons, win methods and career statistics.
-- Past fights with available winners, finish methods, rounds and times.
+- Official META/media rankings, a division selector sheet, P4P, card/list layouts and A–Z fighter search.
+- Fighter following, physical comparisons, win methods and career statistics.
+- Full available career history across promotions for every fighter, with winners, finish methods, rounds and times.
 - Full-fight strike, takedown, control-time, target and position statistics.
 - Time-based main-card, preliminary-card and custom-time reminders.
 - Turkish by default; English and Brazilian Portuguese interface options.
@@ -50,13 +51,13 @@ The IPA is an unsigned device build, not an App Store or TestFlight release. Sim
 
 1. Open an upcoming or past card in **Events**.
 2. Tap a fight for details. Use **Show results** when spoiler protection is enabled; change the default in Settings.
-3. Find a fighter by name or division. The **Fights** tab includes past bouts and an **Older fights** button.
+3. Find a fighter by name or division. The **Fights** tab automatically loads the full available history. Results are always visible here, and loaded fights are cached on the device.
 4. Select your language in **Settings**. iPhone users can open the separate **Themes** gallery.
 5. Open a future event’s reminder controls to schedule a notification. Notification permission is required.
 
 ## Data and current limits
 
-Schedules and statistics come from ESPN; news comes from free RSS sources. Provider delays, missing fields and card changes are possible. When the source combines KO and TKO, the app displays **KO/TKO**. Missing measurements or statistics are not invented.
+Rankings come from the [official UFC rankings page](https://www.ufc.com/rankings); schedules and statistics come from ESPN, and news comes from free RSS sources. META and media lists are kept separate; P4P is labeled as the media panel. The ranking screen displays the last-check timestamp. Provider delays, missing fields and card changes are possible. When the source combines KO and TKO, the app displays **KO/TKO**. Missing measurements or statistics are not invented.
 
 - This version shows full-fight totals; detailed per-round statistics and official scorecards are not included.
 - Links to Fight Digitale, MMA101Türkiye and ChampRDS are available. An automatic X post feed is not connected, and no X token is required.
