@@ -28,12 +28,12 @@ These images show an earlier version’s web preview at phone dimensions; they d
 - Tap a fighter image or name on a card to open their profile; retain scroll position and section selection when going back.
 - Sliding page transitions, iOS edge-back gesture, animated tab indicators and reduced-motion support.
 - Official META/media rankings, a division selector sheet, P4P, card/list layouts and A–Z fighter search.
-- Fighter following, physical comparisons, win methods and career statistics.
+- Fighter following, physical comparisons and career statistics. Profiles include champion, P4P and divisional ranking badges plus published date and place of birth, UFC debut and leg reach.
 - Full available career history across promotions for every fighter, with winners, finish methods, rounds and times.
-- Full-fight strike, takedown, control-time, target and position statistics.
+- Full-fight and round-by-round strikes, takedowns, control time, targets and position breakdowns. Rounds that did not take place are disabled.
 - Time-based main-card, preliminary-card and custom-time reminders.
 - Live start alerts for a fighter’s next bout or a single matchup. CagePulse must be open on screen.
-- Turkish by default; English and Brazilian Portuguese interface options.
+- Grouped settings with separate language and notification pages and in-app support links. Turkish, English and Brazilian Portuguese interface options.
 - iPhone/iPad: native UIKit Liquid Glass buttons and system tab navigation on supported iOS 26+ devices, plus nine themes.
 - Android: standard black/red styling and a flat bottom navigation bar, without glass effects.
 - Disk/memory image caching, 64 bundled headshots, 65 proportional full-body portraits and four event artworks.
@@ -62,9 +62,9 @@ The IPA is an unsigned device build, not an App Store or TestFlight release. Sim
 
 ## Data and current limits
 
-Rankings come from the [official UFC rankings page](https://www.ufc.com/rankings); promotional event artwork and published card times come from official UFC event pages; other schedules and statistics come from ESPN, and news comes from public X profiles, ESPN and RSS sources. META and media lists are kept separate; P4P is labeled as the media panel. The ranking screen displays the last-check timestamp. Provider delays, missing fields and card changes are possible. When the source combines KO and TKO, the app displays **KO/TKO**. Missing measurements or statistics are not invented.
+Rankings come from the [official UFC rankings page](https://www.ufc.com/rankings); UFC supplies event artwork, card times, fighter biographies and detailed round statistics; ESPN supplies the schedule and fallback totals, and news comes from public X profiles, ESPN and RSS sources. META and media lists are kept separate; P4P is labeled as the media panel. The ranking screen displays the last-check timestamp. Provider delays, missing fields and card changes are possible. When the source combines KO and TKO, the app displays **KO/TKO**. Missing measurements or statistics are not invented.
 
-- This version shows full-fight totals; detailed per-round statistics and official scorecards are not included.
+- Round tabs work for bouts matched to UFC data. Available fight totals are shown when round data is unavailable. Official scorecards are outside this release.
 - Fight Digitale and MMA 101 Türkiye posts are read from their public X profiles. If access or page structure changes, the last successful posts remain available. The source row opens the X profile, and the post button opens the original post.
 - Live start alerts check the selected matchup’s ESPN status every 20 seconds while the app is open on screen. Provider delays may delay the alert. Live alerts on the lock screen require server push setup.
 - Community services, account synchronization and server push are not enabled in this distribution.

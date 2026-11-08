@@ -28,12 +28,12 @@ Görseller önceki sürümün telefon ölçüsündeki web önizlemesinden alınm
 - Karttaki dövüşçü fotoğrafı veya adına dokunarak profil açma; geri dönüşte liste konumunu ve kart seçimini koruma.
 - Kayarak sayfa geçişleri, iOS kenardan geri kaydırma, hareketli sekme çizgisi ve Hareketi Azalt desteği.
 - META ve medya sıralamaları, açılır siklet paneli, P4P, kart/liste görünümü ve A–Z dövüşçü araması.
-- Dövüşçü takibi, fiziksel karşılaştırma, kazanma yolları ve kariyer istatistikleri.
+- Dövüşçü takibi, fiziksel karşılaştırma ve kariyer istatistikleri. Profilde şampiyonluk, P4P ve siklet rozetleri ile yayımlanan doğum tarihi, doğum yeri, UFC’ye çıkış tarihi ve bacak mesafesi.
 - Tüm dövüşçüler için, kaynaktaki tüm organizasyonlardan maç geçmişi; kazanan, KO/TKO/submission/karar, raund ve süre bilgisi.
-- Maç bazında toplam/önemli vuruş, yere alma, kontrol süresi, vuruş hedefleri ve pozisyon dağılımları.
+- Tam maç ve raund bazında toplam/önemli vuruş, yere alma, kontrol süresi, vuruş hedefleri ve pozisyon dağılımı. Oynanmayan raundlar pasif görünür.
 - Saat bazlı ana kart, ön kart ve özel saat hatırlatmaları.
 - Dövüşçünün sonraki maçına veya etkinlikte seçilen tek maça canlı başlangıç uyarısı. CagePulse ekranda açıkken çalışır.
-- Türkçe varsayılan arayüz; İngilizce ve Brezilya Portekizcesi seçenekleri.
+- Gruplanmış ayarlar, ayrı dil ve bildirim sayfaları, uygulama içinden destek bağlantıları. Türkçe, İngilizce ve Brezilya Portekizcesi seçenekleri.
 - iPhone/iPad: desteklenen iOS 26+ cihazlarda UIKit tabanlı yerel Liquid Glass düğmeleri, sistem alt menüsü ve dokuz tema.
 - Android: cam efekti olmadan standart siyah/kırmızı tema ve düz alt menü.
 - Görseller için disk/bellek önbelleği; gömülü 64 baş fotoğrafı, 65 orantılı tam boy görsel ve dört etkinlik afişi.
@@ -66,9 +66,9 @@ IPA imzasız cihaz paketidir; App Store veya TestFlight dağıtımı değildir. 
 
 ## Veri ve mevcut sınırlar
 
-Sıralamalar [UFC’nin resmî sıralama sayfasından](https://www.ufc.com/rankings), etkinlik afişleri ve yayımlanan kart saatleri resmî UFC etkinlik sayfalarından; diğer fikstür ve maç istatistikleri ESPN’den, haberler herkese açık X profilleri, ESPN ve RSS kaynaklarından gelir. META ve medya listeleri ayrı tutulur; P4P medya paneli olarak etiketlenir. Sıralama ekranında son kontrol zamanı gösterilir. Kaynak gecikmesi, eksik alanlar ve kart değişiklikleri olabilir. Kaynak KO ve TKO’yu ayırmıyorsa uygulama **KO/TKO** gösterir. Bulunmayan ölçüler veya istatistikler tahmin edilmez.
+Sıralamalar [UFC’nin resmî sıralama sayfasından](https://www.ufc.com/rankings), etkinlik afişleri, kart saatleri, dövüşçü biyografileri ve ayrıntılı raund istatistikleri UFC’den; fikstür ve yedek maç toplamları ESPN’den, haberler herkese açık X profilleri, ESPN ve RSS kaynaklarından gelir. META ve medya listeleri ayrı tutulur; P4P medya paneli olarak etiketlenir. Sıralama ekranında son kontrol zamanı gösterilir. Kaynak gecikmesi, eksik alanlar ve kart değişiklikleri olabilir. Kaynak KO ve TKO’yu ayırmıyorsa uygulama **KO/TKO** gösterir. Bulunmayan ölçüler veya istatistikler tahmin edilmez.
 
-- Raund bazlı ayrıntılı istatistikler ve resmî hakem puan kartları bu sürümde yoktur; maç toplamları gösterilir.
+- Raund sekmeleri UFC verisiyle eşleşen maçlarda çalışır. Ayrıntılı veri alınamadığında mevcut maç toplamları gösterilir. Hakem puan kartları ayrı bir özellik olarak bu sürümde bulunmaz.
 - Fight Digitale ve MMA 101 Türkiye gönderileri herkese açık X profil sayfalarından alınır. Bu sayfaların yapısı veya erişimi değişirse uygulama son alınan gönderileri gösterir. Kaynak satırı X profiline, gönderi düğmesi ilgili paylaşıma gider.
 - Canlı başlangıç uyarısı, uygulama ekranda açıkken ESPN’de seçili eşleşmenin durumunu 20 saniyede bir kontrol eder. Kaynak gecikmesi uyarıyı geciktirebilir. Kilit ekranında canlı uyarı için sunucu push kurulumu gerekir.
 - Topluluk, hesap eşitlemesi ve sunucu push hizmetleri bu dağıtımda etkin değildir.

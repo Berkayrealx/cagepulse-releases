@@ -1,15 +1,17 @@
 ## Türkçe
 
-- Haberler ekranında büyük kapaklar, görsel üzerinde başlık, kaynak, yayın zamanı ve yayımlanan X sayaçları.
-- Fight Digitale ve MMA 101 Türkiye’nin herkese açık gönderileri Haberler sekmesinde varsayılan olarak gösterilir. ESPN ve RSS haberlerine seçeneklerden geçilebilir.
-- Ayrıntıda Kaynak satırı hesabın X profiline, Gönderiyi X’te aç düğmesi asıl paylaşıma gider. X video dosyası sağladığında video uygulamada oynatılabilir.
-- Arama ve okundu filtreleri kaydırırken sabit kalır. Kaydetme ve görünür haberleri okundu işaretleme seçenekleri vardır.
+- Maç ayrıntısında sabit Tam maç ve raund sekmeleri. UFC verisi bulunan maçlarda vuruşlar, yere almalar, kontrol süresi, hedefler ve pozisyon dağılımı seçilen raunda göre güncellenir.
+- İki köşeyi karşılaştıran vuruş çubukları, kafa/gövde/bacak şeması ve pozisyon grafikleri.
+- Dövüşçü profilinde tam doğum tarihi ve yeri, UFC’ye çıkış tarihi, bacak mesafesi ve yayımlanmış şampiyonluk, P4P, META ve medya sıralaması rozetleri.
+- Raund verisine ulaşılamadığında mevcut maç toplamları gösterilir.
+- Ayarlar ekranı ikonlu satırlara ayrıldı. Dil, bildirimler, profil ve destek ayrı sayfalarda. Varsayılan profil takma adı kaldırıldı.
 
 ## English
 
-- Large news covers with overlay headlines, source, publication time and X metrics when available.
-- Public posts from Fight Digitale and MMA 101 Türkiye are the default news feed. ESPN and RSS remain available from the feed options.
-- The source row opens the X profile and the post button opens the original post. Videos can play in the app when X provides a compatible file.
-- Search and read filters stay visible while scrolling. Save stories or mark the visible stories as read.
+- Sticky full-fight and round tabs. For bouts with UFC data, strikes, takedowns, control time, targets and position splits update for the selected round.
+- Head-to-head strike bars, a head/body/leg diagram, and position charts.
+- Fighter profiles now display published dates and places of birth, UFC debut, leg reach, champion badges, and P4P, META and media rankings.
+- Available fight totals are shown when round data is unavailable.
+- Settings now use grouped rows and dedicated language, notification, profile and support pages. The placeholder profile alias was removed.
 
-Android ARM64, Android 8.0+. iPhone/iPad unsigned IPA, iOS 15.1+.
+Android ARM64, Android 8.0+. Unsigned iPhone/iPad IPA, iOS 15.1+.
