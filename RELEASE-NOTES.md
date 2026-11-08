@@ -1,17 +1,21 @@
 ## Türkçe
 
-- Maç ayrıntısında sabit Tam maç ve raund sekmeleri. UFC verisi bulunan maçlarda vuruşlar, yere almalar, kontrol süresi, hedefler ve pozisyon dağılımı seçilen raunda göre güncellenir.
-- İki köşeyi karşılaştıran vuruş çubukları, kafa/gövde/bacak şeması ve pozisyon grafikleri.
-- Dövüşçü profilinde tam doğum tarihi ve yeri, UFC’ye çıkış tarihi, bacak mesafesi ve yayımlanmış şampiyonluk, P4P, META ve medya sıralaması rozetleri.
-- Raund verisine ulaşılamadığında mevcut maç toplamları gösterilir.
-- Ayarlar ekranı ikonlu satırlara ayrıldı. Dil, bildirimler, profil ve destek ayrı sayfalarda. Varsayılan profil takma adı kaldırıldı.
+- Profilde yaş/boy/kilo kutularının satır yüksekliği ve boşlukları düzeltildi.
+- Black Noir dahil açık vurgu rengi kullanan temalarda rozetler koyu yazıyla gösterilir.
+- Maç sayfasında kırmızı/mavi ışıklı kafes zemini, UFC işareti, büyük orantılı sporcu görselleri ve P4P/siklet rozetleri.
+- İstatistiklerde üstün taraf renkli ve vurgulu, gerideki taraf gri görünür. Eşit ve sıfır değerler üstünlük vurgusu almaz.
+- Kaynağın yayımladığı oranlar ondalık biçimde maç satırlarında gösterilir, düşük oranlı taraf vurgulanır.
+- Güncel son beş maçın sonuç noktaları ve seri bilgisi.
+- UFC kaydında mevcutsa resmî hakem puan kartları açılabilir.
 
 ## English
 
-- Sticky full-fight and round tabs. For bouts with UFC data, strikes, takedowns, control time, targets and position splits update for the selected round.
-- Head-to-head strike bars, a head/body/leg diagram, and position charts.
-- Fighter profiles now display published dates and places of birth, UFC debut, leg reach, champion badges, and P4P, META and media rankings.
-- Available fight totals are shown when round data is unavailable.
-- Settings now use grouped rows and dedicated language, notification, profile and support pages. The placeholder profile alias was removed.
+- Corrected line height and spacing in the age, height and weight tiles.
+- Dark label text on light accent badges, including Black Noir.
+- A red/blue-lit cage, UFC floor mark, proportional fighter portraits, and P4P/division badges on bout pages.
+- The leading statistic is highlighted in its corner color. The trailing side is gray. Ties and zeros receive no leader emphasis.
+- Published odds appear as decimal prices on fight rows, highlighting the lower-priced side.
+- Current recent-result dots and streak indicators.
+- Official judge scorecards open when available in the UFC record.
 
 Android ARM64, Android 8.0+. Unsigned iPhone/iPad IPA, iOS 15.1+.

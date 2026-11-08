@@ -18,9 +18,9 @@ This repository contains app downloads, screenshots and documentation only. Appl
 
 | Fighter profile | Fight statistics |
 | :---: | :---: |
-| <img src="media/fighter-profile.jpg" width="240" alt="Fighter profile and measurements"> | <img src="media/fight-stats.jpg" width="240" alt="Fight statistics from real data"> |
+| <img src="media/profile-noir.png" width="240" alt="Fighter profile and measurements"> | <img src="media/fight-arena.png" width="240" alt="Fight statistics from real data"> |
 
-These images show an earlier version’s web preview at phone dimensions; they do not show the redesigned 0.2.6 event page. Native iPhone Liquid Glass is not rendered in browser screenshots. The Android app uses standard black/red controls.
+These images show version 0.2.10 at phone dimensions in a web preview. Native iPhone Liquid Glass is not rendered in browser screenshots. The Android app uses standard black/red controls.
 
 ## Features
 
@@ -30,7 +30,10 @@ These images show an earlier version’s web preview at phone dimensions; they d
 - Official META/media rankings, a division selector sheet, P4P, card/list layouts and A–Z fighter search.
 - Fighter following, physical comparisons and career statistics. Profiles include champion, P4P and divisional ranking badges plus published date and place of birth, UFC debut and leg reach.
 - Full available career history across promotions for every fighter, with winners, finish methods, rounds and times.
-- Full-fight and round-by-round strikes, takedowns, control time, targets and position breakdowns. Rounds that did not take place are disabled.
+- Full-fight and round-by-round strikes, takedowns, control time, targets and position splits. The leading side is highlighted in its corner color. Rounds that did not take place are disabled.
+- A lit cage backdrop, fighter-specific P4P and division badges, and published official judge scorecards.
+- Odds published on UFC event pages, displayed as decimal prices. The lower-priced side is highlighted as the favorite.
+- Current recent form is shown as up to five green/red dots. Gray indicates an unknown outcome. A plus sign means the displayed streak is a lower bound.
 - Time-based main-card, preliminary-card and custom-time reminders.
 - Live start alerts for a fighter’s next bout or a single matchup. CagePulse must be open on screen.
 - Grouped settings with separate language and notification pages and in-app support links. Turkish, English and Brazilian Portuguese interface options.
@@ -64,7 +67,7 @@ The IPA is an unsigned device build, not an App Store or TestFlight release. Sim
 
 Rankings come from the [official UFC rankings page](https://www.ufc.com/rankings); UFC supplies event artwork, card times, fighter biographies and detailed round statistics; ESPN supplies the schedule and fallback totals, and news comes from public X profiles, ESPN and RSS sources. META and media lists are kept separate; P4P is labeled as the media panel. The ranking screen displays the last-check timestamp. Provider delays, missing fields and card changes are possible. When the source combines KO and TKO, the app displays **KO/TKO**. Missing measurements or statistics are not invented.
 
-- Round tabs work for bouts matched to UFC data. Available fight totals are shown when round data is unavailable. Official scorecards are outside this release.
+- Round tabs and official scorecards work for bouts matched to UFC data. Available fight totals are shown when detailed data is unavailable. Odds only appear when the source publishes them. Prices are checked once a minute while an upcoming event is open.
 - Fight Digitale and MMA 101 Türkiye posts are read from their public X profiles. If access or page structure changes, the last successful posts remain available. The source row opens the X profile, and the post button opens the original post.
 - Live start alerts check the selected matchup’s ESPN status every 20 seconds while the app is open on screen. Provider delays may delay the alert. Live alerts on the lock screen require server push setup.
 - Community services, account synchronization and server push are not enabled in this distribution.

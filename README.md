@@ -18,9 +18,9 @@ Bu depo yalnızca uygulama paketleri, görseller ve kullanım belgeleri içindir
 
 | Dövüşçü profili | Maç istatistikleri |
 | :---: | :---: |
-| <img src="media/fighter-profile.jpg" width="240" alt="Dövüşçü profili ve ölçüler"> | <img src="media/fight-stats.jpg" width="240" alt="Gerçek maç istatistikleri"> |
+| <img src="media/profile-noir.png" width="240" alt="Dövüşçü profili ve ölçüler"> | <img src="media/fight-arena.png" width="240" alt="Gerçek maç istatistikleri"> |
 
-Görseller önceki sürümün telefon ölçüsündeki web önizlemesinden alınmıştır; 0.2.6 etkinlik sayfasının yeni düzenini göstermez. iPhone’daki yerel Liquid Glass efekti tarayıcı görsellerinde gösterilmez; Android sürümü standart siyah/kırmızı kontroller kullanır.
+Görseller 0.2.10 sürümünün telefon ölçüsündeki web önizlemesidir. iPhone’daki yerel Liquid Glass efekti tarayıcı görsellerinde gösterilmez. Android sürümü standart siyah/kırmızı kontroller kullanır.
 
 ## Neler var?
 
@@ -30,7 +30,10 @@ Görseller önceki sürümün telefon ölçüsündeki web önizlemesinden alınm
 - META ve medya sıralamaları, açılır siklet paneli, P4P, kart/liste görünümü ve A–Z dövüşçü araması.
 - Dövüşçü takibi, fiziksel karşılaştırma ve kariyer istatistikleri. Profilde şampiyonluk, P4P ve siklet rozetleri ile yayımlanan doğum tarihi, doğum yeri, UFC’ye çıkış tarihi ve bacak mesafesi.
 - Tüm dövüşçüler için, kaynaktaki tüm organizasyonlardan maç geçmişi; kazanan, KO/TKO/submission/karar, raund ve süre bilgisi.
-- Tam maç ve raund bazında toplam/önemli vuruş, yere alma, kontrol süresi, vuruş hedefleri ve pozisyon dağılımı. Oynanmayan raundlar pasif görünür.
+- Tam maç ve raund bazında vuruş, yere alma, kontrol süresi, hedef ve pozisyon dağılımı. Üstün tarafın barı köşe renginde vurgulanır. Oynanmayan raundlar pasif görünür.
+- Işıklı kafes arka planı, kişiye ait P4P ve siklet rozetleri, yayımlanmış resmî hakem kartları.
+- UFC sayfasında yayımlanan oranlar ondalık biçimde gösterilir. Düşük oranlı taraf favori olarak vurgulanır.
+- Dövüşçülerin güncel son beş maçı yeşil/kırmızı noktalarla gösterilir. Gri nokta sonucu belirsiz kaydı belirtir. Artı işareti gösterilen galibiyet/mağlubiyet serisinin en az o kadar olduğunu belirtir.
 - Saat bazlı ana kart, ön kart ve özel saat hatırlatmaları.
 - Dövüşçünün sonraki maçına veya etkinlikte seçilen tek maça canlı başlangıç uyarısı. CagePulse ekranda açıkken çalışır.
 - Gruplanmış ayarlar, ayrı dil ve bildirim sayfaları, uygulama içinden destek bağlantıları. Türkçe, İngilizce ve Brezilya Portekizcesi seçenekleri.
@@ -68,7 +71,7 @@ IPA imzasız cihaz paketidir; App Store veya TestFlight dağıtımı değildir. 
 
 Sıralamalar [UFC’nin resmî sıralama sayfasından](https://www.ufc.com/rankings), etkinlik afişleri, kart saatleri, dövüşçü biyografileri ve ayrıntılı raund istatistikleri UFC’den; fikstür ve yedek maç toplamları ESPN’den, haberler herkese açık X profilleri, ESPN ve RSS kaynaklarından gelir. META ve medya listeleri ayrı tutulur; P4P medya paneli olarak etiketlenir. Sıralama ekranında son kontrol zamanı gösterilir. Kaynak gecikmesi, eksik alanlar ve kart değişiklikleri olabilir. Kaynak KO ve TKO’yu ayırmıyorsa uygulama **KO/TKO** gösterir. Bulunmayan ölçüler veya istatistikler tahmin edilmez.
 
-- Raund sekmeleri UFC verisiyle eşleşen maçlarda çalışır. Ayrıntılı veri alınamadığında mevcut maç toplamları gösterilir. Hakem puan kartları ayrı bir özellik olarak bu sürümde bulunmaz.
+- Raund sekmeleri ve resmî hakem kartları UFC verisiyle eşleşen maçlarda çalışır. Ayrıntılı veri alınamadığında mevcut maç toplamları gösterilir. Oranlar yalnızca kaynak yayımladığında görünür. Yaklaşan etkinlik açıkken oranlar dakikada bir kontrol edilir.
 - Fight Digitale ve MMA 101 Türkiye gönderileri herkese açık X profil sayfalarından alınır. Bu sayfaların yapısı veya erişimi değişirse uygulama son alınan gönderileri gösterir. Kaynak satırı X profiline, gönderi düğmesi ilgili paylaşıma gider.
 - Canlı başlangıç uyarısı, uygulama ekranda açıkken ESPN’de seçili eşleşmenin durumunu 20 saniyede bir kontrol eder. Kaynak gecikmesi uyarıyı geciktirebilir. Kilit ekranında canlı uyarı için sunucu push kurulumu gerekir.
 - Topluluk, hesap eşitlemesi ve sunucu push hizmetleri bu dağıtımda etkin değildir.
