@@ -16,9 +16,9 @@ This repository contains app downloads, screenshots and documentation only. Appl
 
 ## Screenshots
 
-| Fighter profile | Fight statistics | Mavio theme gallery |
-| :---: | :---: | :---: |
-| <img src="media/fighter-profile.jpg" width="240" alt="Fighter profile and measurements"> | <img src="media/fight-stats.jpg" width="240" alt="Fight statistics from real data"> | <img src="media/themes.jpg" width="240" alt="Mavio themes"> |
+| Fighter profile | Fight statistics |
+| :---: | :---: |
+| <img src="media/fighter-profile.jpg" width="240" alt="Fighter profile and measurements"> | <img src="media/fight-stats.jpg" width="240" alt="Fight statistics from real data"> |
 
 These images show the actual app’s web preview at phone dimensions. Native iPhone Liquid Glass is not rendered in browser screenshots. The Android app uses standard black/red controls.
 
@@ -31,7 +31,7 @@ These images show the actual app’s web preview at phone dimensions. Native iPh
 - Full-fight strike, takedown, control-time, target and position statistics.
 - Time-based main-card, preliminary-card and custom-time reminders.
 - Turkish by default; English and Brazilian Portuguese interface options.
-- iPhone/iPad: interactive native Liquid Glass on supported iOS 26+ devices, plus nine Mavio themes.
+- iPhone/iPad: interactive native Liquid Glass on supported iOS 26+ devices, plus nine themes.
 - Android: standard black/red styling and a flat bottom navigation bar, without glass effects.
 - Saved news, read filters, personal notes and a local cache.
 

@@ -16,9 +16,9 @@ Bu depo yalnızca uygulama paketleri, görseller ve kullanım belgeleri içindir
 
 ## Uygulamadan görünümler
 
-| Dövüşçü profili | Maç istatistikleri | Mavio tema galerisi |
-| :---: | :---: | :---: |
-| <img src="media/fighter-profile.jpg" width="240" alt="Dövüşçü profili ve ölçüler"> | <img src="media/fight-stats.jpg" width="240" alt="Gerçek maç istatistikleri"> | <img src="media/themes.jpg" width="240" alt="Mavio temaları"> |
+| Dövüşçü profili | Maç istatistikleri |
+| :---: | :---: |
+| <img src="media/fighter-profile.jpg" width="240" alt="Dövüşçü profili ve ölçüler"> | <img src="media/fight-stats.jpg" width="240" alt="Gerçek maç istatistikleri"> |
 
 Görseller gerçek uygulamanın telefon ölçüsündeki web önizlemesinden alınmıştır. iPhone’daki yerel Liquid Glass efekti tarayıcı görsellerinde gösterilmez; Android sürümü standart siyah/kırmızı kontroller kullanır.
 
@@ -31,7 +31,7 @@ Görseller gerçek uygulamanın telefon ölçüsündeki web önizlemesinden alı
 - Maç bazında toplam/önemli vuruş, yere alma, kontrol süresi, vuruş hedefleri ve pozisyon dağılımları.
 - Saat bazlı ana kart/ön kart/özel saat hatırlatmaları.
 - Türkçe varsayılan arayüz; İngilizce ve Brezilya Portekizcesi seçenekleri.
-- iPhone/iPad: desteklenen iOS 26+ cihazlarda etkileşimli yerel Liquid Glass ve dokuz Mavio teması.
+- iPhone/iPad: desteklenen iOS 26+ cihazlarda etkileşimli yerel Liquid Glass ve dokuz tema.
 - Android: cam efekti olmadan standart siyah/kırmızı tema ve düz alt menü.
 - Kayıtlı haberler, okundu filtresi, kişisel notlar ve yerel önbellek.
 
