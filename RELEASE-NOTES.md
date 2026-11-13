@@ -1,21 +1,19 @@
+# CagePulse 0.2.11
+
 ## Türkçe
 
-- Profilde yaş/boy/kilo kutularının satır yüksekliği ve boşlukları düzeltildi.
-- Black Noir dahil açık vurgu rengi kullanan temalarda rozetler koyu yazıyla gösterilir.
-- Maç sayfasında kırmızı/mavi ışıklı kafes zemini, UFC işareti, büyük orantılı sporcu görselleri ve P4P/siklet rozetleri.
-- İstatistiklerde üstün taraf renkli ve vurgulu, gerideki taraf gri görünür. Eşit ve sıfır değerler üstünlük vurgusu almaz.
-- Kaynağın yayımladığı oranlar ondalık biçimde maç satırlarında gösterilir, düşük oranlı taraf vurgulanır.
-- Güncel son beş maçın sonuç noktaları ve seri bilgisi.
-- UFC kaydında mevcutsa resmî hakem puan kartları açılabilir.
+- Gelecek yılın maçlarını dışarıda bırakan tarih sınırı düzeltildi. Duyurulmuş etkinlikler yaklaşık üç yıl ileriye kadar sorgulanır; UFC 336 Van–Kape takvimde yer alır.
+- Açılışta, uygulamaya dönünce ve uygulama ekranda açıkken beş dakikada bir yenileme. Son tam takvim güncelleme zamanı gösterilir. Kısmi bağlantı hatası gelecekteki kayıtlı kartları silmez.
+- Etkinlikte **Bu karta tahmin yap**: tek maç veya karttan istediğin seçimleri, isteğe bağlı bitiş yöntemi ve raundla kaydet. **Profil → Tahminlerim** üzerinden kazanan/yöntem/raund doğruluğunu ayrı gör.
+- Tahminler cihazda saklanır, etkinlik başlangıcında kilitlenir. Eksik sonuçlar bekler; doğrulanmış iptal veya rakip değişikliği kayıp sayılmaz. Hesaplar arası tahmin eşitlemesi yoktur.
+- Haberler ve Profil içinde kaynaklı **Eşleşme gündemi**. Karşılaşma olasılığı yüzdesi uydurulmaz. Erişilebilir akışta uygun haber bulunması gerekir.
 
 ## English
 
-- Corrected line height and spacing in the age, height and weight tiles.
-- Dark label text on light accent badges, including Black Noir.
-- A red/blue-lit cage, UFC floor mark, proportional fighter portraits, and P4P/division badges on bout pages.
-- The leading statistic is highlighted in its corner color. The trailing side is gray. Ties and zeros receive no leader emphasis.
-- Published odds appear as decimal prices on fight rows, highlighting the lower-priced side.
-- Current recent-result dots and streak indicators.
-- Official judge scorecards open when available in the UFC record.
+- Fixed the date boundary excluding next-year cards. The schedule queries announced events roughly three years ahead and includes UFC 336 Van vs. Kape.
+- Refresh on launch, return to foreground and every five minutes while active. Shows the last complete schedule refresh; partial outages preserve cached future cards.
+- **Predict this card** saves any subset of an event with optional finish method and round. **Profile → My predictions** grades winner, method and round separately.
+- Prediction cards are device-local and lock at event start. Missing outcomes stay pending; confirmed cancellations/replacements are void. No cross-device prediction sync.
+- Sourced **Matchup watch** in News and Profile. No invented matchup probability percentages; matching accessible news must be available.
 
-Android ARM64, Android 8.0+. Unsigned iPhone/iPad IPA, iOS 15.1+.
+Android ARM64, Android 8.0+. Unsigned iPhone/iPad IPA, iOS 15.1+. Update the existing app using the same signing identity to retain local data. Physical-device testing was not performed for this release.

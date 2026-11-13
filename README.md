@@ -24,6 +24,9 @@ Görseller 0.2.10 sürümünün telefon ölçüsündeki web önizlemesidir. iPho
 
 ## Neler var?
 
+- Yaklaşık üç yıl ileriye uzanan duyurulmuş etkinlik takvimi. Açılışta, uygulamaya dönünce ve ekranda açıkken beş dakikada bir yenilenir; son tam güncelleme zamanı gösterilir.
+- Etkinlik başına kaydedilebilir tahmin listesi: tek maç, ana kart veya tüm karttan istediğin seçimler; isteğe bağlı KO/TKO, submission, karar ve raund. Kazanan, yöntem ve raund ayrı değerlendirilir.
+- Haberler ve Profil içinden **Eşleşme gündemi**: erişilebilir haber akışındaki iki dövüşçülü eşleşme haberleri, kaynak ve yayın tarihiyle gösterilir. Uygulama karşılaşma ihtimali yüzdesi üretmez.
 - UFC/MMA etkinlik takvimi; afişli etkinlik sayfası, erken ön kart / ön kart / ana kart saatleri. Açıklanmayan saatler tahmin edilmez.
 - Karttaki dövüşçü fotoğrafı veya adına dokunarak profil açma; geri dönüşte liste konumunu ve kart seçimini koruma.
 - Kayarak sayfa geçişleri, iOS kenardan geri kaydırma, hareketli sekme çizgisi ve Hareketi Azalt desteği.
@@ -66,9 +69,17 @@ IPA imzasız cihaz paketidir; App Store veya TestFlight dağıtımı değildir. 
 3. **Dövüşçüler** bölümünde isim/siklet filtresiyle profil bul. **Maçlar** sekmesi kaynaktaki tüm geçmişi otomatik yükler. Bu ekranda sonuçlar her zaman açıktır; yüklenen maçlar cihazda saklanır.
 4. **Ayarlar** bölümünden dili, iPhone’da **Temalar** sayfasından görünümü değiştir.
 5. Dövüşçü profilinde **Sonraki maç → Maç başlayınca bildir** seçeneğine dokun. Etkinliğin alarm menüsünden **Tek maç** seçerek de aynı uyarıyı kurabilirsin. Bildirim izni gerekir.
+6. Bir etkinlikte **Bu karta tahmin yap** seçeneğini aç. Kazananı seç, istersen yöntem/raund ekle ve **Tahminleri kaydet** düğmesine bas. **Profil → Tahminlerim** ekranından listelerine ve sonuç değerlendirmelerine dön.
+
+<p align="center"><img src="media/prediction-card.png" width="270" alt="Kaydedilen tahmin listesi örneği"></p>
+
+Tahmin görseli 0.2.11 sürümünün telefon ölçüsündeki web önizlemesidir; gösterilen seçim kontrol sırasında oluşturulmuş örnek bir kayıttır.
 
 ## Veri ve mevcut sınırlar
 
+- Takvim üç yıl ileriyi sorgular; yalnızca veri kaynağında duyurulmuş etkinlikler görünür. Uygulama kapalıyken kesintisiz yenileme yapmaz. Bağlantı hatasında kayıtlı takvim korunur.
+- Tahminler bu cihazda saklanır. Etkinlik başlayınca düzenleme kilitlenir. Tahminlerim açıldığında güncel sonuçlar kontrol edilir; resmî sonuç eksikse seçim bekler. Doğrulanan iptal veya rakip değişikliği kayıp sayılmaz. Hesaplar/cihazlar arasında tahmin eşitlemesi bu sürümde yoktur.
+- Eşleşme gündemi son 14 gündeki, iki dövüşçüsü belirlenebilen haberleri gösterir. Söylentiler resmîleşmiş maç sayılmaz; akışta uygun haber yoksa boş durum gösterilir.
 Sıralamalar [UFC’nin resmî sıralama sayfasından](https://www.ufc.com/rankings), etkinlik afişleri, kart saatleri, dövüşçü biyografileri ve ayrıntılı raund istatistikleri UFC’den; fikstür ve yedek maç toplamları ESPN’den, haberler herkese açık X profilleri, ESPN ve RSS kaynaklarından gelir. META ve medya listeleri ayrı tutulur; P4P medya paneli olarak etiketlenir. Sıralama ekranında son kontrol zamanı gösterilir. Kaynak gecikmesi, eksik alanlar ve kart değişiklikleri olabilir. Kaynak KO ve TKO’yu ayırmıyorsa uygulama **KO/TKO** gösterir. Bulunmayan ölçüler veya istatistikler tahmin edilmez.
 
 - Raund sekmeleri ve resmî hakem kartları UFC verisiyle eşleşen maçlarda çalışır. Ayrıntılı veri alınamadığında mevcut maç toplamları gösterilir. Oranlar yalnızca kaynak yayımladığında görünür. Yaklaşan etkinlik açıkken oranlar dakikada bir kontrol edilir.

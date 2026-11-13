@@ -24,6 +24,9 @@ These images show version 0.2.10 at phone dimensions in a web preview. Native iP
 
 ## Features
 
+- Announced events approximately three years ahead. Refreshes on launch, return to foreground and every five minutes while active, with the last complete refresh time displayed.
+- Saved event prediction cards: choose one fight or any subset of the card, with optional KO/TKO, submission, decision and round selections. Winner, method and round are graded separately.
+- **Matchup watch**, available from News and Profile, shows sourced two-fighter matchup stories with publication dates. The app does not generate matchup probability percentages.
 - UFC/MMA schedule, promotional event artwork, and separate early-prelim / prelim / main-card start times. Missing times are not guessed.
 - Tap a fighter image or name on a card to open their profile; retain scroll position and section selection when going back.
 - Sliding page transitions, iOS edge-back gesture, animated tab indicators and reduced-motion support.
@@ -42,6 +45,16 @@ These images show version 0.2.10 at phone dimensions in a web preview. Native iP
 - Disk/memory image caching, 64 bundled headshots, 65 proportional full-body portraits and four event artworks.
 - Image-led news cards, fixed search and read filters, saved stories, and personal notes.
 - Public posts from Fight Digitale and MMA 101 Türkiye on X, with source images and in-app video when available.
+
+## Saved predictions and matchup watch
+
+Open an event and tap **Predict this card**. Select winners, optionally add methods/rounds, then save. Return through **Profile → My predictions** to check your cards and results. Cards stay on this device and lock at event start. Confirmed cancellations/replacements are void; incomplete results remain pending. Cross-device prediction sync is not available in this version.
+
+<p align="center"><img src="media/prediction-card.png" width="270" alt="Saved prediction card example"></p>
+
+This is a phone-size web preview of version 0.2.11 with a sample selection created during verification.
+
+The schedule checks roughly three years ahead but can display only events already announced by the provider. Refresh runs while the app is active, not continuously when it is closed. Cached events survive connection failures. Matchup watch uses matching stories from the past 14 days; rumours are not confirmed matchups and no percentage is invented.
 
 ## Installation
 
