@@ -1,19 +1,21 @@
-# CagePulse 0.2.11
+# CagePulse 0.2.12
 
 ## Türkçe
 
-- Gelecek yılın maçlarını dışarıda bırakan tarih sınırı düzeltildi. Duyurulmuş etkinlikler yaklaşık üç yıl ileriye kadar sorgulanır; UFC 336 Van–Kape takvimde yer alır.
-- Açılışta, uygulamaya dönünce ve uygulama ekranda açıkken beş dakikada bir yenileme. Son tam takvim güncelleme zamanı gösterilir. Kısmi bağlantı hatası gelecekteki kayıtlı kartları silmez.
-- Etkinlikte **Bu karta tahmin yap**: tek maç veya karttan istediğin seçimleri, isteğe bağlı bitiş yöntemi ve raundla kaydet. **Profil → Tahminlerim** üzerinden kazanan/yöntem/raund doğruluğunu ayrı gör.
-- Tahminler cihazda saklanır, etkinlik başlangıcında kilitlenir. Eksik sonuçlar bekler; doğrulanmış iptal veya rakip değişikliği kayıp sayılmaz. Hesaplar arası tahmin eşitlemesi yoktur.
-- Haberler ve Profil içinde kaynaklı **Eşleşme gündemi**. Karşılaşma olasılığı yüzdesi uydurulmaz. Erişilebilir akışta uygun haber bulunması gerekir.
+- Etkinliklere **Tümü / UFC / PFL / OKTAGON** organizasyon filtreleri eklendi; yaklaşan ve geçmiş kartlarda çalışır.
+- PFL'nin ESPN kartları ve resmî takvimindeki bölgesel etkinlikler birleştirilir. Aynı kart iki kez gösterilmez; önceki ESPN kimlikleri korunur.
+- OKTAGON resmî takvimi, eşleşmeleri, fotoğrafları ve yayımlanan sonuçları okunur. Profilden yayımlanan yakın geçmiş ve kayıtlı maçlara erişilebilir.
+- Yeni organizasyonların kartlarında da cihazda tahmin listesi kaydetme ve kaynakta bulunan kazanan/bitiş yöntemi bilgilerini görme desteklenir.
+- Eksik eşleşmeler, saatler, raund/süre ve istatistikler üretilmez. Bazı bölgesel PFL etkinliklerinde kaynak henüz eşleşme sağlamıyor. Ayrıntılı UFC raund istatistikleri diğer organizasyonlara taşınmaz.
+- 68 otomatik kontrol ve TypeScript kontrolü geçti. Telefon ölçüsündeki web önizlemesinde PFL kartı, OKTAGON filtresi ve tahmin ekranı kontrol edildi. Fiziksel cihaz testi yapılmadı.
 
 ## English
 
-- Fixed the date boundary excluding next-year cards. The schedule queries announced events roughly three years ahead and includes UFC 336 Van vs. Kape.
-- Refresh on launch, return to foreground and every five minutes while active. Shows the last complete schedule refresh; partial outages preserve cached future cards.
-- **Predict this card** saves any subset of an event with optional finish method and round. **Profile → My predictions** grades winner, method and round separately.
-- Prediction cards are device-local and lock at event start. Missing outcomes stay pending; confirmed cancellations/replacements are void. No cross-device prediction sync.
-- Sourced **Matchup watch** in News and Profile. No invented matchup probability percentages; matching accessible news must be available.
+- Added **All / UFC / PFL / OKTAGON** organization filters for upcoming and past events.
+- Merges ESPN PFL cards with regional events from the official PFL calendar, retaining ESPN identities and avoiding duplicate cards.
+- Reads the official OKTAGON schedule, matchups, photos and published outcomes. Profiles show published recent history and saved fights.
+- New promotion cards also support device-local prediction cards and published winner/finish information.
+- Missing matchups, times, finish round/time and statistics are not invented. Some regional PFL events currently supply no matchups. UFC round statistics are not reused for other organizations.
+- 68 automated checks and TypeScript passed. Phone-size web verification covered the PFL card, OKTAGON filter and prediction screen. Physical-device testing was not performed.
 
-Android ARM64, Android 8.0+. Unsigned iPhone/iPad IPA, iOS 15.1+. Update the existing app using the same signing identity to retain local data. Physical-device testing was not performed for this release.
+Android ARM64, Android 8.0+. Unsigned iPhone/iPad IPA, iOS 15.1+. Update the existing app using the same signing identity to retain local data.

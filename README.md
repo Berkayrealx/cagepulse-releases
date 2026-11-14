@@ -24,6 +24,7 @@ Görseller 0.2.10 sürümünün telefon ölçüsündeki web önizlemesidir. iPho
 
 ## Neler var?
 
+- **UFC, PFL ve OKTAGON** etkinlikleri. **Etkinlikler → Tümü / UFC / PFL / OKTAGON** filtresiyle organizasyon değiştir; yaklaşan ve geçmiş kartları ayrı gör.
 - Yaklaşık üç yıl ileriye uzanan duyurulmuş etkinlik takvimi. Açılışta, uygulamaya dönünce ve ekranda açıkken beş dakikada bir yenilenir; son tam güncelleme zamanı gösterilir.
 - Etkinlik başına kaydedilebilir tahmin listesi: tek maç, ana kart veya tüm karttan istediğin seçimler; isteğe bağlı KO/TKO, submission, karar ve raund. Kazanan, yöntem ve raund ayrı değerlendirilir.
 - Haberler ve Profil içinden **Eşleşme gündemi**: erişilebilir haber akışındaki iki dövüşçülü eşleşme haberleri, kaynak ve yayın tarihiyle gösterilir. Uygulama karşılaşma ihtimali yüzdesi üretmez.
@@ -32,7 +33,7 @@ Görseller 0.2.10 sürümünün telefon ölçüsündeki web önizlemesidir. iPho
 - Kayarak sayfa geçişleri, iOS kenardan geri kaydırma, hareketli sekme çizgisi ve Hareketi Azalt desteği.
 - META ve medya sıralamaları, açılır siklet paneli, P4P, kart/liste görünümü ve A–Z dövüşçü araması.
 - Dövüşçü takibi, fiziksel karşılaştırma ve kariyer istatistikleri. Profilde şampiyonluk, P4P ve siklet rozetleri ile yayımlanan doğum tarihi, doğum yeri, UFC’ye çıkış tarihi ve bacak mesafesi.
-- Tüm dövüşçüler için, kaynaktaki tüm organizasyonlardan maç geçmişi; kazanan, KO/TKO/submission/karar, raund ve süre bilgisi.
+- ESPN destekli dövüşçülerde kaynaktaki organizasyonlardan maç geçmişi; kazanan, KO/TKO/submission/karar, raund ve süre bilgisi. OKTAGON profilleri resmî sayfada yayımlanan geçmişi ve kayıtlı kartları gösterir; bunun tam kariyer olduğu iddia edilmez.
 - Tam maç ve raund bazında vuruş, yere alma, kontrol süresi, hedef ve pozisyon dağılımı. Üstün tarafın barı köşe renginde vurgulanır. Oynanmayan raundlar pasif görünür.
 - Işıklı kafes arka planı, kişiye ait P4P ve siklet rozetleri, yayımlanmış resmî hakem kartları.
 - UFC sayfasında yayımlanan oranlar ondalık biçimde gösterilir. Düşük oranlı taraf favori olarak vurgulanır.
@@ -64,9 +65,9 @@ IPA imzasız cihaz paketidir; App Store veya TestFlight dağıtımı değildir. 
 
 ## İlk kullanım
 
-1. **Etkinlikler** bölümünden yaklaşan veya geçmiş bir kart seç.
+1. **Etkinlikler** bölümünde **Tümü, UFC, PFL veya OKTAGON** seç; ardından yaklaşan veya geçmiş bir kart aç.
 2. Dövüşçünün adına veya fotoğrafına dokunarak profilini, satırın kalan alanına dokunarak maç ayrıntılarını aç. Geçmiş karşılaşmalarda kazanan, bitiş yöntemi, raund ve süre doğrudan gösterilir.
-3. **Dövüşçüler** bölümünde isim/siklet filtresiyle profil bul. **Maçlar** sekmesi kaynaktaki tüm geçmişi otomatik yükler. Bu ekranda sonuçlar her zaman açıktır; yüklenen maçlar cihazda saklanır.
+3. **Dövüşçüler** bölümünde isim/siklet filtresiyle profil bul. **Maçlar** sekmesi kaynağın sağladığı geçmişi yükler. Bu ekranda sonuçlar her zaman açıktır; yüklenen maçlar cihazda saklanır.
 4. **Ayarlar** bölümünden dili, iPhone’da **Temalar** sayfasından görünümü değiştir.
 5. Dövüşçü profilinde **Sonraki maç → Maç başlayınca bildir** seçeneğine dokun. Etkinliğin alarm menüsünden **Tek maç** seçerek de aynı uyarıyı kurabilirsin. Bildirim izni gerekir.
 6. Bir etkinlikte **Bu karta tahmin yap** seçeneğini aç. Kazananı seç, istersen yöntem/raund ekle ve **Tahminleri kaydet** düğmesine bas. **Profil → Tahminlerim** ekranından listelerine ve sonuç değerlendirmelerine dön.
@@ -75,8 +76,16 @@ IPA imzasız cihaz paketidir; App Store veya TestFlight dağıtımı değildir. 
 
 Tahmin görseli 0.2.11 sürümünün telefon ölçüsündeki web önizlemesidir; gösterilen seçim kontrol sırasında oluşturulmuş örnek bir kayıttır.
 
+| PFL maç kartı | OKTAGON tahmin ekranı |
+| :---: | :---: |
+| <img src="media/pfl-card.png" width="240" alt="PFL Dubai kartı, yayımlanmış saatler ve maçlar"> | <img src="media/oktagon-predictions.png" width="240" alt="OKTAGON kartından tahmin seçimi"> |
+
+Bu iki görsel 0.2.12 sürümünün telefon ölçüsündeki web önizlemesidir; fiziksel cihaz veya yerel Liquid Glass doğrulaması değildir.
+
 ## Veri ve mevcut sınırlar
 
+- PFL takvimi ESPN ve [PFL’nin resmî etkinlik sayfalarından](https://pflmma.com/events), OKTAGON takvimi ve kartları [resmî OKTAGON sayfasından](https://oktagonmma.com/en/events/) alınır. Kart açıldığında bilgiler yeniden istenir; hata olursa kayıtlı bilgiler korunur. Eşleşmeler veya ayrı kart saatleri kaynakta yoksa üretilmez. PFL’nin bazı bölgesel etkinlikleri bu sürümün kaynağında yalnızca tarih/saat ve afişle yer alır.
+- PFL/OKTAGON için UFC raund istatistikleri veya oranları kullanılmaz. OKTAGON profillerinin yayımlanan geçmişi sınırlı olabilir. Canlı tek maç uyarısı desteklenen ESPN UFC/PFL kartlarında, uygulama ekranda açıkken çalışır; OKTAGON için canlı başlangıç veya kilit ekranı push hizmeti etkin değildir.
 - Takvim üç yıl ileriyi sorgular; yalnızca veri kaynağında duyurulmuş etkinlikler görünür. Uygulama kapalıyken kesintisiz yenileme yapmaz. Bağlantı hatasında kayıtlı takvim korunur.
 - Tahminler bu cihazda saklanır. Etkinlik başlayınca düzenleme kilitlenir. Tahminlerim açıldığında güncel sonuçlar kontrol edilir; resmî sonuç eksikse seçim bekler. Doğrulanan iptal veya rakip değişikliği kayıp sayılmaz. Hesaplar/cihazlar arasında tahmin eşitlemesi bu sürümde yoktur.
 - Eşleşme gündemi son 14 gündeki, iki dövüşçüsü belirlenebilen haberleri gösterir. Söylentiler resmîleşmiş maç sayılmaz; akışta uygun haber yoksa boş durum gösterilir.
